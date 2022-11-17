@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha256-/ykJw/wDxMa0AQhHDYfuMEwVb4JHMx9h4jD4XvHqVzU=" crossorigin="anonymous" />
+        <title>Test Page</title>
+    </head>
+    <body>
+        {% if search %}
+        <span class="text-danger"> {{ search | safe }} </span>
+        {% endif %} 
+        <a href="/" class='btn btn-primary'>Return</a>
+    </body>
+</html>
